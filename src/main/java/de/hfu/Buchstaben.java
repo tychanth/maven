@@ -1,5 +1,5 @@
 package de.hfu;
-
+//##
 import java.util.Scanner;
 
 public class Buchstaben {
