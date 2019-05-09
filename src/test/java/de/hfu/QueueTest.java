@@ -35,14 +35,12 @@ public class QueueTest
         assertTrue( true );
         
         //Test mehr als 3 werte nehmen
-        q.dequeue();
+     //   q.dequeue();
         
-        
-        
-        
-       
-       
       
-      
+    }
+    public void neuerFall(){
+    	System.out.println("noch mehr tests");
+    	//never reached
     }
 }
