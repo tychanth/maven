@@ -1,6 +1,6 @@
 package de.hfu;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -12,9 +12,19 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
+	
     @Test
     public void shouldAnswerWithTrue()
     {
+    	System.out.println("APP TEST");
+    	/*
+    	
         assertTrue( true );
+        
+       
+        assertTrue( Util.istErstesHalbjahr(1));
+        assertTrue( Util.istErstesHalbjahr(4));
+        assertFalse( Util.istErstesHalbjahr(9));
+      */
     }
 }
