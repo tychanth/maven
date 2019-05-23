@@ -1,6 +1,6 @@
 package de.hfu.residents.service;
 
-import static org.easymock.EasyMock.*;
+//import static org.easymock.EasyMock.*;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
@@ -42,7 +42,7 @@ public class ResidentsServiceTest{
 		residentList.add(r2);
 		
 		
-		ResidentRepositoryStab repository = createMock(ResidentRepositoryStab.class);// new ResidentRepositoryStab();
+		ResidentRepositoryStab repository = /*createMock(ResidentRepositoryStab.class);*/new ResidentRepositoryStab();
 		repository.addResidentList(residentList);
 		
 		
